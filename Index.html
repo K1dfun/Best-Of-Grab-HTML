@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Level Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left-container">
+        <div class="box" id="level-info-box">
+            <img id="level-image" src="Default_Image.png" style="width: 100%; border-radius: 10px;">
+            <input type="text" id="urlInput" placeholder="Enter level URL...">
+            <button onclick="fetchLevelData()">Get Level Data</button>
+        </div>
+        <div class="box" id="buttons-box" style="display: none;">
+            <div class="button-container" id="button-container"></div>
+        </div>
+    </div>
+    <div class="right-container" id="output-container"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
