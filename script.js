@@ -1,3 +1,5 @@
+let outputHistory = [];  // ✅ Ensure this is defined before use
+
 document.getElementById("urlInput").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         fetchLevelData();
