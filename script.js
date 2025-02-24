@@ -1,4 +1,4 @@
-let outputHistory = [];  // ✅ Ensure this is defined before use
+let outputHistory = []; 
 
 document.getElementById("urlInput").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
