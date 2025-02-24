@@ -1,4 +1,5 @@
-let outputHistory = []; 
+// ✅ Ensure outputHistory is declared globally before any function uses it
+let outputHistory = [];
 
 document.getElementById("urlInput").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
